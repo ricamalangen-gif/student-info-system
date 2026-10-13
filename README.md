@@ -88,16 +88,3 @@ git merge feature/student-crud
 git add .
 git commit -m "Add validation, search, export, logging, and tests"
 ```
-
-Push your repository to GitHub using the repository URL shown by GitHub:
-
-```bash
-git remote add origin https://github.com/YOUR-USERNAME/student-info-system.git
-git push -u origin main
-```
-
-Replace `YOUR-USERNAME` with your GitHub username. Do not publish passwords, access tokens, or private student information.
-
-## Notes
-
-This is a local, file-based demonstration of a cloud-ready modular structure. It is not a hosted web application or a connected cloud database. To demonstrate GitHub integration, push the source code to your own repository and keep a meaningful commit history. The sample student records are fictional.
