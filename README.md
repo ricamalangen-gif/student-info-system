@@ -18,8 +18,6 @@ A simple Python command-line application for managing student records. It was bu
 - Python 3.10 or later
 - Git and a GitHub account (for version control)
 
-No third-party Python packages are required.
-
 ## Run the application
 
 Open a terminal in the project folder and run:
@@ -27,8 +25,6 @@ Open a terminal in the project folder and run:
 ```bash
 python -m src.main
 ```
-
-Choose an option from the menu and follow the prompts. The initial JSON file contains sample records that you can edit or delete while testing.
 
 ## Choose JSON or XML storage
 
@@ -41,8 +37,6 @@ The default configuration is in `config/config.json`:
   "log_file": "logs/app.log"
 }
 ```
-
-To use XML, change `storage_format` to `xml` and change `data_file` to `data/students.xml`. The application will create the XML data file if it does not exist. JSON is the default.
 
 ## Run tests
 
