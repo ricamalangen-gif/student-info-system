@@ -70,21 +70,3 @@ student-info-system/
 ├── requirements.txt
 └── .gitignore
 ```
-
-## GitHub workflow suggestion
-
-Use small commits with messages that describe the change. Example:
-
-```bash
-git init
-git add .
-git commit -m "Set up project structure and configuration"
-git branch feature/student-crud
-git checkout feature/student-crud
-git add src data
-git commit -m "Implement student CRUD and JSON persistence"
-git checkout main
-git merge feature/student-crud
-git add .
-git commit -m "Add validation, search, export, logging, and tests"
-```
